@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star Bakery - Contact Us</title>
+</head>
+<body>
+
+    <header>
+        <img src="images/bakery-logo.png" alt="North Star Bakery logo showing a loaf of bread with a wheat stalk">
+        <p>North Star Bakery | Fresh Breads &amp; Handmade Pastries</p>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contact Us &amp; Pre-Order Requests</h1>
+            <p>Whether you'd like to reserve weekend sourdough loaves, inquire about custom celebration cakes, or ask a question about our ingredients, we would love to hear from you. Use our form below or stop by our neighborhood counter!</p>
+        </section>
+
+        <section>
+            <h2>Bakery Location &amp; Hours</h2>
+            <img src="images/bakery-storefront.jpg" alt="Bakery storefront window and door showing shelves of freshly baked breads and pastries">
+            
+            <p><strong>North Star Bakery</strong><br>
+            1234 Rainbow Road<br>
+            Mario Galaxy</p>
+
+            <p><strong>Telephone:</strong> (555) 123-4567<br>
+            <strong>Email:</strong> orders@northstarbakery.com</p>
+
+            <h3>Hours of Operation</h3>
+            <ul>
+                <li>Tuesday through Friday: 6:30 AM – 3:00 PM (or until sold out)</li>
+                <li>Saturday &amp; Sunday: 7:30 AM – 2:00 PM</li>
+                <li>Monday: Closed for deep cleaning and oven maintenance</li>
+            </ul>
+            <p><em>Pre-order note:</em> For bread and pastry pre-orders, please submit your request at least 24 hours in advance. Custom celebration cakes require 48 hours notice.</p>
+        </section>
+
+        <section>
+            <h2>Inquiry &amp; Pre-Order Form</h2>
+            <p>Please fill out your contact details and order request below. We will reply by email within 24 hours to confirm your pickup date and total.</p>
+            <!-- Form is unfunctional, for demonstration purposes only -->
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <p>
+                        <label for="name">Your Name (Required):</label><br>
+                        <input type="text" id="name" name="name" required placeholder="e.g., Luke Preble">
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address (Required):</label><br>
+                        <input type="email" id="email" name="email" required placeholder="e.g., luke@example.com">
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number (Optional):</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="e.g., 612-555-0199">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Order Details &amp; Request Type</legend>
+
+                    <p>
+                        <label for="request-type">Request Type (Required):</label><br>
+                        <select id="request-type" name="requestType" required>
+                            <option value="">-- Please select an option --</option>
+                            <option value="bread-pastry-preorder">Bread &amp; Pastry Pre-Order</option>
+                            <option value="custom-cake">Custom Celebration Cake Request</option>
+                            <option value="catering">Event Catering Inquiry</option>
+                            <option value="general-question">General Question</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="pickup-date">Requested Pickup Date:</label><br>
+                        <input type="date" id="pickup-date" name="pickupDate">
+                    </p>
+
+                    <p>
+                        <label for="item-details">Item Details &amp; Quantities (Required):</label><br>
+                        <textarea id="item-details" name="itemDetails" rows="5" cols="45" required placeholder="Please list the items and quantities you would like to reserve (e.g., 2 Country Sourdough loaves, 4 Cardamom Morning Knots)..."></textarea>
+                    </p>
+
+                    <p>
+                        <label for="allergy-notes">Dietary &amp; Allergy Notes (Optional):</label><br>
+                        <textarea id="allergy-notes" name="allergyNotes" rows="3" cols="45" placeholder="Let us know about any food allergies (such as tree nuts, dairy, or sesame seed sensitivities)..."></textarea>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Bakery Newsletter</legend>
+                    <p>
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes" checked>
+                        <label for="newsletter">Sign me up for the weekly North Star newsletter featuring new seasonal bake specials and holiday menu announcements.</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Submit Request</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+            </form>
+        </section>
+
+        <aside>
+            <h2>Pickup &amp; Payment Policy</h2>
+            <p>All pre-orders are paid in person at our front pickup counter when you arrive. We accept all major credit cards, cash, and contactless mobile pay. Items not picked up within 30 minutes of closing are donated to our local neighborhood food pantry.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <section>
+            <h3>North Star Bakery</h3>
+            <p>1234 Rainbow Road, Mario Galaxy| (555) 123-4567</p>
+            <p>Fresh artisan breads, pastries, and custom orders for our local community.</p>
+        </section>
+        <p>&copy; 2026 North Star Bakery</p>
+    </footer>
+
+</body>
+</html>
